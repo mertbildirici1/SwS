@@ -22,6 +22,7 @@
 		105255832C9A4AB000716DC3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255822C9A4AB000716DC3 /* ProfileView.swift */; };
 		105255842C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */; };
 		105255852C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		105255882C9A51DA00716DC3 /* GigDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255872C9A51DA00716DC3 /* GigDetailView.swift */; };
 		32AD7167D64E8B30EDC8EA5C /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25BFFB1E766A9D40CB13C91 /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework */; };
 		B4F1B351BD9B5C06033D9762 /* Pods_Students_Who_SitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974CAA6500F5235D258BA696 /* Pods_Students_Who_SitTests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		1052557D2C9A4A3500716DC3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		105255802C9A4A8700716DC3 /* FirebaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseServices.swift; sourceTree = "<group>"; };
 		105255822C9A4AB000716DC3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		105255872C9A51DA00716DC3 /* GigDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigDetailView.swift; sourceTree = "<group>"; };
 		16DE13084DED706EF412EC72 /* Pods-Students Who Sit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit.debug.xcconfig"; path = "Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit.debug.xcconfig"; sourceTree = "<group>"; };
 		2702404ED88D83D09435F2A0 /* Pods-Students Who Sit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit.release.xcconfig"; path = "Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit.release.xcconfig"; sourceTree = "<group>"; };
 		4704749B91AC80BCE5A17AD7 /* Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				1052557A2C9A49DE00716DC3 /* HomeView.swift */,
 				105255822C9A4AB000716DC3 /* ProfileView.swift */,
+				105255872C9A51DA00716DC3 /* GigDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				105255782C9A49C000716DC3 /* BabySittingGig.swift in Sources */,
 				1052557B2C9A49DE00716DC3 /* HomeView.swift in Sources */,
 				1052554B2C9A480200716DC3 /* Students_Who_SitApp.swift in Sources */,
+				105255882C9A51DA00716DC3 /* GigDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
