@@ -14,6 +14,16 @@
 		1052555C2C9A480400716DC3 /* Students_Who_SitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052555B2C9A480400716DC3 /* Students_Who_SitTests.swift */; };
 		105255662C9A480400716DC3 /* Students_Who_SitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255652C9A480400716DC3 /* Students_Who_SitUITests.swift */; };
 		105255682C9A480400716DC3 /* Students_Who_SitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255672C9A480400716DC3 /* Students_Who_SitUITestsLaunchTests.swift */; };
+		105255762C9A499500716DC3 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255752C9A499500716DC3 /* Users.swift */; };
+		105255782C9A49C000716DC3 /* BabySittingGig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255772C9A49C000716DC3 /* BabySittingGig.swift */; };
+		1052557B2C9A49DE00716DC3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052557A2C9A49DE00716DC3 /* HomeView.swift */; };
+		1052557E2C9A4A3500716DC3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052557D2C9A4A3500716DC3 /* HomeViewModel.swift */; };
+		105255812C9A4A8700716DC3 /* FirebaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255802C9A4A8700716DC3 /* FirebaseServices.swift */; };
+		105255832C9A4AB000716DC3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105255822C9A4AB000716DC3 /* ProfileView.swift */; };
+		105255842C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */; };
+		105255852C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32AD7167D64E8B30EDC8EA5C /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25BFFB1E766A9D40CB13C91 /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework */; };
+		B4F1B351BD9B5C06033D9762 /* Pods_Students_Who_SitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974CAA6500F5235D258BA696 /* Pods_Students_Who_SitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		105255862C9A4E0600716DC3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				105255852C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		105255472C9A480200716DC3 /* Students Who Sit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Students Who Sit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1052554A2C9A480200716DC3 /* Students_Who_SitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students_Who_SitApp.swift; sourceTree = "<group>"; };
@@ -44,6 +68,21 @@
 		105255612C9A480400716DC3 /* Students Who SitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Students Who SitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		105255652C9A480400716DC3 /* Students_Who_SitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students_Who_SitUITests.swift; sourceTree = "<group>"; };
 		105255672C9A480400716DC3 /* Students_Who_SitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students_Who_SitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		105255752C9A499500716DC3 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		105255772C9A49C000716DC3 /* BabySittingGig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabySittingGig.swift; sourceTree = "<group>"; };
+		1052557A2C9A49DE00716DC3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1052557D2C9A4A3500716DC3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		105255802C9A4A8700716DC3 /* FirebaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseServices.swift; sourceTree = "<group>"; };
+		105255822C9A4AB000716DC3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		16DE13084DED706EF412EC72 /* Pods-Students Who Sit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit.debug.xcconfig"; path = "Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit.debug.xcconfig"; sourceTree = "<group>"; };
+		2702404ED88D83D09435F2A0 /* Pods-Students Who Sit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit.release.xcconfig"; path = "Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit.release.xcconfig"; sourceTree = "<group>"; };
+		4704749B91AC80BCE5A17AD7 /* Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		974CAA6500F5235D258BA696 /* Pods_Students_Who_SitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Students_Who_SitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Students_Who_Sit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76485349F670D459BE8C085 /* Pods-Students Who SitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who SitTests.release.xcconfig"; path = "Target Support Files/Pods-Students Who SitTests/Pods-Students Who SitTests.release.xcconfig"; sourceTree = "<group>"; };
+		B53B7B4E5846DF86E7DC9165 /* Pods-Students Who Sit-Students Who SitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who Sit-Students Who SitUITests.release.xcconfig"; path = "Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25BFFB1E766A9D40CB13C91 /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Students_Who_Sit_Students_Who_SitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF650D56DC084A13910782F6 /* Pods-Students Who SitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Students Who SitTests.debug.xcconfig"; path = "Target Support Files/Pods-Students Who SitTests/Pods-Students Who SitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105255842C9A4E0600716DC3 /* Pods_Students_Who_Sit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F1B351BD9B5C06033D9762 /* Pods_Students_Who_SitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AD7167D64E8B30EDC8EA5C /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +120,8 @@
 				1052555A2C9A480400716DC3 /* Students Who SitTests */,
 				105255642C9A480400716DC3 /* Students Who SitUITests */,
 				105255482C9A480200716DC3 /* Products */,
+				955BCD0DEE907B458F7B8674 /* Pods */,
+				D3C09051831F79326160026E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +138,10 @@
 		105255492C9A480200716DC3 /* Students Who Sit */ = {
 			isa = PBXGroup;
 			children = (
+				1052557F2C9A4A7A00716DC3 /* Services */,
+				1052557C2C9A4A2600716DC3 /* ViewModels */,
+				105255792C9A49D100716DC3 /* Views */,
+				105255742C9A498A00716DC3 /* Models */,
 				1052554A2C9A480200716DC3 /* Students_Who_SitApp.swift */,
 				1052554C2C9A480200716DC3 /* ContentView.swift */,
 				1052554E2C9A480400716DC3 /* Assets.xcassets */,
@@ -127,6 +175,63 @@
 			path = "Students Who SitUITests";
 			sourceTree = "<group>";
 		};
+		105255742C9A498A00716DC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				105255752C9A499500716DC3 /* Users.swift */,
+				105255772C9A49C000716DC3 /* BabySittingGig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		105255792C9A49D100716DC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1052557A2C9A49DE00716DC3 /* HomeView.swift */,
+				105255822C9A4AB000716DC3 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1052557C2C9A4A2600716DC3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1052557D2C9A4A3500716DC3 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1052557F2C9A4A7A00716DC3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				105255802C9A4A8700716DC3 /* FirebaseServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		955BCD0DEE907B458F7B8674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16DE13084DED706EF412EC72 /* Pods-Students Who Sit.debug.xcconfig */,
+				2702404ED88D83D09435F2A0 /* Pods-Students Who Sit.release.xcconfig */,
+				4704749B91AC80BCE5A17AD7 /* Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig */,
+				B53B7B4E5846DF86E7DC9165 /* Pods-Students Who Sit-Students Who SitUITests.release.xcconfig */,
+				DF650D56DC084A13910782F6 /* Pods-Students Who SitTests.debug.xcconfig */,
+				A76485349F670D459BE8C085 /* Pods-Students Who SitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3C09051831F79326160026E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF8E9D09FC4BF9FB06FB97 /* Pods_Students_Who_Sit.framework */,
+				C25BFFB1E766A9D40CB13C91 /* Pods_Students_Who_Sit_Students_Who_SitUITests.framework */,
+				974CAA6500F5235D258BA696 /* Pods_Students_Who_SitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1052556B2C9A480400716DC3 /* Build configuration list for PBXNativeTarget "Students Who Sit" */;
 			buildPhases = (
+				DC063B15A6761630D22C177B /* [CP] Check Pods Manifest.lock */,
 				105255432C9A480200716DC3 /* Sources */,
 				105255442C9A480200716DC3 /* Frameworks */,
 				105255452C9A480200716DC3 /* Resources */,
+				8AFCD0A2EC8D6289072F5DCF /* [CP] Embed Pods Frameworks */,
+				105255862C9A4E0600716DC3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1052556E2C9A480400716DC3 /* Build configuration list for PBXNativeTarget "Students Who SitTests" */;
 			buildPhases = (
+				DF078C0E4C018AB73B69B51F /* [CP] Check Pods Manifest.lock */,
 				105255532C9A480400716DC3 /* Sources */,
 				105255542C9A480400716DC3 /* Frameworks */,
 				105255552C9A480400716DC3 /* Resources */,
@@ -169,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 105255712C9A480400716DC3 /* Build configuration list for PBXNativeTarget "Students Who SitUITests" */;
 			buildPhases = (
+				D0C497E6569721334816AC8B /* [CP] Check Pods Manifest.lock */,
 				1052555D2C9A480400716DC3 /* Sources */,
 				1052555E2C9A480400716DC3 /* Frameworks */,
 				1052555F2C9A480400716DC3 /* Resources */,
+				7DE154B307C2F66901C4A535 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,12 +363,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DE154B307C2F66901C4A535 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit-Students Who SitUITests/Pods-Students Who Sit-Students Who SitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFCD0A2EC8D6289072F5DCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Students Who Sit/Pods-Students Who Sit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C497E6569721334816AC8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Students Who Sit-Students Who SitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC063B15A6761630D22C177B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Students Who Sit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF078C0E4C018AB73B69B51F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Students Who SitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		105255432C9A480200716DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105255832C9A4AB000716DC3 /* ProfileView.swift in Sources */,
 				1052554D2C9A480200716DC3 /* ContentView.swift in Sources */,
+				1052557E2C9A4A3500716DC3 /* HomeViewModel.swift in Sources */,
+				105255762C9A499500716DC3 /* Users.swift in Sources */,
+				105255812C9A4A8700716DC3 /* FirebaseServices.swift in Sources */,
+				105255782C9A49C000716DC3 /* BabySittingGig.swift in Sources */,
+				1052557B2C9A49DE00716DC3 /* HomeView.swift in Sources */,
 				1052554B2C9A480200716DC3 /* Students_Who_SitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +636,7 @@
 		};
 		1052556C2C9A480400716DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DE13084DED706EF412EC72 /* Pods-Students Who Sit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +665,7 @@
 		};
 		1052556D2C9A480400716DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2702404ED88D83D09435F2A0 /* Pods-Students Who Sit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +694,7 @@
 		};
 		1052556F2C9A480400716DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF650D56DC084A13910782F6 /* Pods-Students Who SitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +714,7 @@
 		};
 		105255702C9A480400716DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76485349F670D459BE8C085 /* Pods-Students Who SitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +734,7 @@
 		};
 		105255722C9A480400716DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4704749B91AC80BCE5A17AD7 /* Pods-Students Who Sit-Students Who SitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +752,7 @@
 		};
 		105255732C9A480400716DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53B7B4E5846DF86E7DC9165 /* Pods-Students Who Sit-Students Who SitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
